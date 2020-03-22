@@ -2,14 +2,27 @@
 <html lang = "ja">
     <header>
         <link rel="stylesheet" type="text/css" href="css\style.css"></link>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <meta http-equiv="Pragma" content="no-cache">
+        <meta http-equiv="Cache-Control" content="no-cache">
     </header>
     <body>
         <div class="header">
             <h1>
-                <a>
-                    <img source="\image\index-logo.png" alt="whalen cafe"></img>
+                <a href="#">
+                    <img src="image\index-logo.png" alt="whalen cafe"></img>
                 </a>
             </h1>
         </div>
+        <div class="slider-wrap">
+            <img id="sliderImage" src="image\slider-image1.jpg"></img>
+            <a id="btnPrev" class="slider-button slide-prev">
+                <div class="material-icons slide-icon">keyboard_arrow_left</div>
+            </a>
+            <a id="btnNext" class="slider-button slide-next">
+                <div class="material-icons slide-icon">keyboard_arrow_right</div>
+            </a>
+        </div>
     </body>
+    <script src="lib\slider.js"></script>
 </html>
