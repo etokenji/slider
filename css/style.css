@@ -22,7 +22,7 @@ body {
   height: 600px;
   position: absolute;
   z-index: 2;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .image-wrap > img {
